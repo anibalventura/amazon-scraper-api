@@ -9,7 +9,14 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 // Routes.
-app.get("/", (_, res) => res.send("Welcome to Amazon Scraper API!"));
+app.get("/", (_, res) =>
+  res.send(`
+Welcome to Amazon Scraper API!
+
+To check the available routes and usage, visit:
+https://github.com/anibalventura/amazon-scraper-api
+`)
+);
 app.use(productsRoutes);
 
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));

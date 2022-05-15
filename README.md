@@ -2,13 +2,16 @@
 
 [![npm](https://img.shields.io/static/v1?label=npm&message=8.5.5&color=purple)](https://www.npmjs.com/)
 [![NodeJS](https://img.shields.io/static/v1?label=NodeJS&message=16.15.0&color=green)](https://nodejs.org/en/)
+[![Heroku Deployed](https://heroku-badge.herokuapp.com/?app=heroku-badge)](https://heroku-badge.herokuapp.com/?app={av-amazon-scraper-api})
 [![License](https://img.shields.io/static/v1?label=License&message=MIT&color=blue)](LICENSE.md)
 
-Scraper API to get the description of an Amazon product with his ID, built with NodeJS and Express.
+Scraper API to get information of an Amazon product, built with NodeJS and Express.
+
+Check live deploy: https://av-amazon-scraper-api.herokuapp.com/
 
 ## Overview
 
-| Endpoint                           | Description                 | Request body | Response body           |
+| Routes                             | Description                 | Request body | Response body           |
 | ---------------------------------- | --------------------------- | ------------ | ----------------------- |
 | `GET /product-search/:searchQuery` | Get list of products        | None         | List of products        |
 | `GET /product/:productId`          | Get product by ID           | None         | Product                 |
@@ -19,7 +22,7 @@ Scraper API to get the description of an Amazon product with his ID, built with 
 
 Before you can start using the API you need a key from [ScraperAPI](https://www.scraperapi.com/).
 
-GET `http://localhost:5000/product/B09C12L49Z?api_key=YOUR_KEY`
+`http://localhost:5000/product/PRODUCT_ID?api_key=YOUR_KEY`
 
 ## Build
 

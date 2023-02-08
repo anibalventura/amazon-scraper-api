@@ -2,7 +2,6 @@
 
 [![npm](https://img.shields.io/static/v1?label=npm&message=8.5.5&color=purple)](https://www.npmjs.com/)
 [![NodeJS](https://img.shields.io/static/v1?label=NodeJS&message=16.15.0&color=green)](https://nodejs.org/en/)
-[![Heroku Deployed](https://heroku-badge.herokuapp.com/?app=heroku-badge)](https://heroku-badge.herokuapp.com/?app=av-amazon-scraper-api)
 [![License](https://img.shields.io/static/v1?label=License&message=MIT&color=blue)](LICENSE.md)
 
 Scraper API to get information of an Amazon product, built with NodeJS and Express.

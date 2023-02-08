@@ -6,8 +6,6 @@
 
 Scraper API to get information of an Amazon product, built with NodeJS and Express.
 
-Check live deploy: https://av-amazon-scraper-api.herokuapp.com/
-
 ## Overview
 
 | Routes                             | Description                 | Request body | Response body           |
